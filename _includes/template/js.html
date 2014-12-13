@@ -3,3 +3,81 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script>
+      var showServices = function() {
+        //var distance = $('nav').offset().top;
+        var distance = $('.marketing').offset().top + -400;
+        //var distance = 25;
+
+        //hide elements before animation
+        $('.service-item').css('visibility','hidden');
+
+      $(window).scroll(function() {
+          if ( $(window).scrollTop() >= distance ) {
+            $('.service-item').css('visibility','visible').addClass('animated zoomIn');
+          }
+        });
+      };
+
+      var showService1 = function() {
+        //var distance = $('nav').offset().top;
+        var distance = $('#service1').offset().top + -500;
+        //var distance = 25;
+
+        //hide elements before animation
+        $('#service1 > .left-item').css('visibility','hidden');
+        $('#service1 > .right-item').css('visibility','hidden');
+
+        $(window).scroll(function() {
+            if ( $(window).scrollTop() >= distance ) {
+              $('#service1 > .left-item').css('visibility','visible').addClass('animated bounceInLeft');
+              $('#service1 > .right-item').css('visibility','visible').addClass('animated bounceInRight');
+            }
+          });
+      };
+
+      var showService2 = function() {
+        //var distance = $('nav').offset().top;
+        var distance = $('#service2').offset().top + -500;
+        //var distance = 25;
+
+        //hide elements before animation
+        $('#service2 > .left-item').css('visibility','hidden');
+        $('#service2 > .right-item').css('visibility','hidden');
+
+        $(window).scroll(function() {
+            if ( $(window).scrollTop() >= distance ) {
+              $('#service2 > .left-item').css('visibility','visible').addClass('animated bounceInLeft');
+              $('#service2 > .right-item').css('visibility','visible').addClass('animated bounceInRight');
+            }
+          });
+      };
+
+      var showService3 = function() {
+        //var distance = $('nav').offset().top;
+        var distance = $('#service3').offset().top + -500;
+        //var distance = 25;
+
+        //hide elements before animation
+        $('#service3 > .left-item').css('visibility','hidden');
+        $('#service3 > .right-item').css('visibility','hidden');
+
+        $(window).scroll(function() {
+            if ( $(window).scrollTop() >= distance ) {
+              $('#service3 > .left-item').css('visibility','visible').addClass('animated bounceInLeft');
+              $('#service3 > .right-item').css('visibility','visible').addClass('animated bounceInRight');
+            }
+          });
+      };
+
+      $(document).ready(function() {
+        showServices();
+        showService1();
+        showService2();
+        showService3();
+      });
+
+      //$(window).resize(function() {
+       // scrollToTop();
+      //});
+    </script>

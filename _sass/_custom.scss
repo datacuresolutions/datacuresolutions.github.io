@@ -95,6 +95,17 @@ body {
   letter-spacing: -1px;
 }
 
+.service-icon {
+    width: 140px;
+    height: 140px;
+    padding: 40px 40px 40px 40px;
+    background-color: $brand-primary;
+    border-radius: 50%;
+    color: $dcs-light;
+}
+
+
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
