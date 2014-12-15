@@ -1,28 +1,31 @@
       <!-- Contact  -->
 
-      <div class="row">
-      <div id="contact" class="col-md-6 col-md-offset-3">
-        <h2 class="service-heading">Contact Us</h2>
-        <form role="form">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name">
-          </div>
-          <div class="form-group">
-            <label for="org">Organization</label>
-            <input type="text" class="form-control" id="org">
-          </div>
-          <div class="form-group">
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email">
-          </div>
-          <div class="form-group">
-            <label for="comments">Comments</label>
-            <textarea class="form-control" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-      </div>
+      <div id="contact" class="row service">
+        <div class="col-md-7 left-item">
+          <h2 class="service-heading">{% include content/contact_headline.html %}</h2>
+          <p class="lead">{% include content/contact_detail.html %}</p>
+        </div>
+        <div class="col-md-5 right-item">
+          <form role="form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="org">Organization</label>
+              <input type="text" class="form-control" id="org">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="comments">Comments</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
       </div>
 
       <hr class="featurette-divider">
