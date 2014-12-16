@@ -3,7 +3,9 @@
       <div id="service1" class="row service">
         <div class="col-md-7 left-item">
           <h2 class="service-heading">{% include content/service_1_headline.html %} <span class="text-muted">{% include content/service_1_muted.html %}</span></h2>
-          <p class="lead">{% include content/service_1_detail.html %}</p>
+          <p class="lead">{{% capture service_1_detail %}{% include service_1_detail.html %}{% endcapture %}
+            {{ service_1_detail | markdownify }}
+          </p>
         </div>
         <div class="col-md-5 right-item">
           <img class="service-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
