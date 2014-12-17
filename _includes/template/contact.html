@@ -2,8 +2,10 @@
 
       <div id="contact" class="row service">
         <div class="col-md-7 left-item">
-          <h2 class="service-heading">{% include content/contact_headline.html %}</h2>
-          <p class="lead">{% include content/contact_detail.html %}</p>
+          <div class="service-heading">{% capture contact_headline %}{% include content/contact_headline.md %}{% endcapture %}{{ contact_headline | markdownify }}</div>
+          <div class="lead">{% capture contact_detail %}{% include content/contact_detail.md %}{% endcapture %}
+          {{ contact_detail | markdownify }}
+          </div>
         </div>
         <div class="col-md-5 right-item">
           <form role="form">
