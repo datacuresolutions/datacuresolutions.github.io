@@ -2,7 +2,7 @@
 
       <div id="service1" class="row service">
         <div class="col-md-7 left-item">
-          <h2 class="service-heading">{% include content/service_1_headline.html %} <span class="text-muted">{% include content/service_1_muted.html %}</span></h2>
+          <h2 class="service-heading">{% include content/service_1_headline.html %}<br><span class="text-muted">{% include content/service_1_muted.html %}</span></h2>
           <div class="lead">{% capture service_1_detail %}{% include content/service_1_detail.md %}{% endcapture %}
           {{ service_1_detail | markdownify }}
           </div>
@@ -19,8 +19,10 @@
           <img class="service-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
         </div>
         <div class="col-md-7 right-item">
-          <h2 class="service-heading">{% include content/service_2_headline.html %} <span class="text-muted">{% include content/service_2_muted.html %}</span></h2>
-          <p class="lead">{% include content/service_2_detail.html %}</p>
+          <h2 class="service-heading">{% include content/service_2_headline.html %}<br><span class="text-muted">{% include content/service_2_muted.html %}</span></h2>
+          <div class="lead">{% capture service_2_detail %}{% include content/service_2_detail.md %}{% endcapture %}
+          {{ service_2_detail | markdownify }}
+          </div>
         </div>
       </div>
 
@@ -28,8 +30,10 @@
 
       <div id="service3" class="row service">
         <div class="col-md-7 left-item">
-          <h2 class="service-heading">{% include content/service_3_headline.html %} <span class="text-muted">{% include content/service_3_muted.html %}</span></h2>
-          <p class="lead">{% include content/service_3_detail.html %}</p>
+          <h2 class="service-heading">{% include content/service_3_headline.html %}<br><span class="text-muted">{% include content/service_3_muted.html %}</span></h2>
+          <div class="lead">{% capture service_3_detail %}{% include content/service_3_detail.md %}{% endcapture %}
+          {{ service_3_detail | markdownify }}
+          </div>
         </div>
         <div class="col-md-5 right-item">
           <img class="service-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
