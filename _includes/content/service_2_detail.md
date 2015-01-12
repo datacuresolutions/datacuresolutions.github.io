@@ -1,12 +1,8 @@
-### Objectively innovate empowered manufactured products
+#### Worried about care delivery through an EMR transition ? *DataCure can help*!
+#### Are support costs for mutliple systems killing your budget  ? *DataCure can help*!
 
-#### whereas parallel platforms
+* Our teams are dedicated to EMR conversion
+* All data is provided in the formatted needed for your new system
+* Data validation is critical, not everyone does this.  DataCure does!
 
-* this is *italic*
-* this is **BOLD**
-* chains. Dramatically engage top-line web
-* services vis-a-vis cutting-edge deliverables.
-
-This is just a paragraph. No special characters are need to create this. Just start typing.
-
-Leave a blank line between each kind of "element"
+DataCure - The right resource for your conversion.
