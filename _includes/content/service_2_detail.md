@@ -1,4 +1,4 @@
-### Worried about care delivery through an EMR transition ? DataCure can help!
+#### Worried about care delivery through an EMR transition ? DataCure can help!
 Are support costs on multiple systems killing your budget ? DataCure can help!
 
 * Our teams are dedicated to EMR conversion
