@@ -1,4 +1,4 @@
-### Is your facility closing? Leaving a legacy EMR platform?
+### Leaving a legacy EMR platform? Is your facility closing? 
 
 #### DataCure Solutions provides expertise to simplify your transition
 
