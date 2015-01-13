@@ -1,3 +1,3 @@
 Ensure data availability and fulfill retention compliance with DataCure's Vendor Neutral Archive (VNA) solution.
 
-2nd paragraph Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+The DataCure repository is the right destination to centralize legacy data.  Secure and highly extendable, this solution is a cost effective and common sense remedy to fragmented systems.
