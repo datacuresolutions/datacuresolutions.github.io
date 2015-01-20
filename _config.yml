@@ -1,10 +1,9 @@
 # Site settings
-title: DataCure Solutions
+title: DataCure Solutions | EMR Conversion & Data Extraction
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  DataCure Solutions provides EMR Conversion, Medical Data Extraction, and
+  Medical Image Repository services nationwide.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://datacuresolutions.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
