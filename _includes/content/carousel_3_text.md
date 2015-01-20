@@ -1,3 +1,3 @@
-# Carousel Headline
+# When you're in need, knowing the right destination makes all the difference.
 
-text that should grab some interest
+DataCure is the right destination.
