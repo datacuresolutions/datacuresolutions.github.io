@@ -62,10 +62,25 @@ body {
   background-color: #777;
 }
 
-.item > img{
-    position: relative;
-    top: -175px;
+.carousel-inner .item {
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+.slide1 {
+    background: url('../assets/images/2.jpeg') no-repeat center center;
+}
+.slide2 {
+    background: url('../assets/images/1.jpg') no-repeat center center;
+}
+.slide3 {
+    background: url('../assets/images/AirAmbulance.jpeg') no-repeat center center;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -138,6 +153,9 @@ body {
     font-size: 21px;
     line-height: 1.4;
   }
+    .carousel-inner .item {
+        height: 500px;
+    }
 
   .service-heading {
     font-size: 50px;
@@ -152,4 +170,8 @@ body {
   .service-image {
     margin-top: 60px;
   }
+
+    .carousel-inner .item {
+        height: 500px;
+    }
 }
